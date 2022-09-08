@@ -4,21 +4,25 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
     <title>home | PrachiSahu</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <nav class="navigation">
-      <div class="nav-brand">iAmDeveloper</div>
+      <div class="nav-brand">Prachi Sahu</div>
       <ul class="list-non-bullet nav-pills">
         <li class="list-item-inline">
-          <a class="link link-active" href="index.html">home</a>
+          <a class="link link-active" href="index.html">Home</a>
         </li>
         <li class="list-item-inline">
-          <a class="link" href="projects.html">projects</a>
+          <a class="link" href="projects.html">Projects</a>
         </li>
         <li class="list-item-inline">
-          <a class="link" href="blogs.html">blogs</a>
+          <a class="link" href="blogs.html">Blogs</a>
         </li>
       </ul>
     </nav>
@@ -33,9 +37,10 @@
     <section class="section ow">
       <div class="container container-center">
         <h1>Technologies</h1>
-        <p>
-          I'm familiar with HTML5, CSS3, Git, nodeJS, JavaScript, ReactJS, and
-          Web Hosting
+        <p class="description">
+          I'm familiar with<span class="bold">
+            HTML5, CSS3, Git, nodeJS, JavaScript, ReactJS, and Web Hosting</span
+          >
         </p>
       </div>
     </section>
@@ -43,7 +48,7 @@
     <section class="section">
       <div class="container container-center">
         <h2>Projects</h2>
-        <p>
+        <p class="description">
           Some of the best works, I have done recently. You can see those online
           hosted projects here.
         </p>
@@ -54,7 +59,7 @@
     <section class="section ow">
       <div class="container container-center">
         <h2>Blogs</h2>
-        <p>
+        <p class="description">
           I am also working on some technical and non techincal blogs. I like to
           document my journey of learning.
         </p>
@@ -62,23 +67,32 @@
       </div>
     </section>
 
-    <footer class="footer">
-      <div class="footer-header">Social media links</div>
-      <ul class="social-links list-non-bullet">
-        <li class="list-item-inline">
-          <a class="link" href="https://github.com/prachi-sahu-codes">Github</a>
-        </li>
-        <li class="list-item-inline">
-          <a class="link" href="https://twitter.com/sahuprachi637">Twitter</a>
-        </li>
-        <li class="list-item-inline">
-          <a
-            class="link"
-            href="https://www.linkedin.com/in/prachi-sahu-96b228200/"
-            >LinkedIn</a
-          >
-        </li>
-      </ul>
+    <footer>
+      <div>
+        <div class="footer-name">Social media Links</div>
+        <a
+          class="footer-links"
+          href="https://github.com/prachi-sahu-codes"
+          target="_blank"
+        >
+          <i class="fa-brands fa-github" aria-hidden="true"></i>
+        </a>
+
+        <a class="footer-links" href="https://twitter.com/sahuprachi637">
+          <i class="fa-brands fa-twitter"></i>
+        </a>
+
+        <a
+          class="footer-links"
+          href="https://www.linkedin.com/in/prachi-sahu-96b228200/"
+        >
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
+
+        <a class="footer-links" href="mailto:prachisahu998@gmail.com">
+          <i class="fa-solid fa-envelope"></i>
+        </a>
+      </div>
     </footer>
   </body>
 </html>

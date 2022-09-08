@@ -4,21 +4,25 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
     <title>Blogs | PrachiSahu</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <nav class="navigation container">
-      <div class="nav-brand">iAmDeveloper</div>
+      <div class="nav-brand">Prachi Sahu</div>
       <ul class="list-non-bullet nav-pills">
         <li class="list-item-inline">
-          <a class="link" href="index.html">home</a>
+          <a class="link" href="index.html">Home</a>
         </li>
         <li class="list-item-inline">
-          <a class="link" href="projects.html">projects</a>
+          <a class="link" href="projects.html">Projects</a>
         </li>
         <li class="list-item-inline">
-          <a class="link link-active" href="blogs.html">blogs</a>
+          <a class="link link-active" href="blogs.html">Blogs</a>
         </li>
       </ul>
     </nav>
@@ -32,8 +36,8 @@
     <ul class="">
       <li class="section list-non-bullet ow">
         <h2>Absolute beginner's guide to CSS Grid</h2>
-        <small>August, 2022</small>
-        <p>
+        <small class="date-li">August, 2022</small>
+        <p class="description-li">
           CSS Grid is the most easiest and modern way to build a layout. It can
           create complex responsive web design Grid layout.....
         </p>
@@ -45,8 +49,8 @@
       </li>
       <li class="section list-non-bullet">
         <h2>Markdown explained in 4 minutes</h2>
-        <small>August, 2022</small>
-        <p>
+        <small class="date-li">August, 2022</small>
+        <p class="description-li">
           Markdown is lightweight markup language which is used to convert text
           into valid HTML / XML for web writers. It is simple to read, write,
           and edit.....
@@ -59,23 +63,32 @@
       </li>
     </ul>
 
-    <footer class="footer">
-      <div class="footer-header">Social media links</div>
-      <ul class="social-links list-non-bullet">
-        <li class="list-item-inline">
-          <a class="link" href="https://github.com/prachi-sahu-codes">Github</a>
-        </li>
-        <li class="list-item-inline">
-          <a class="link" href="https://twitter.com/sahuprachi637">Twitter</a>
-        </li>
-        <li class="list-item-inline">
-          <a
-            class="link"
-            href="https://www.linkedin.com/in/prachi-sahu-96b228200/"
-            >LinkedIn</a
-          >
-        </li>
-      </ul>
+    <footer>
+      <div>
+        <div class="footer-name">Social media Links</div>
+        <a
+          class="footer-links"
+          href="https://github.com/prachi-sahu-codes"
+          target="_blank"
+        >
+          <i class="fa-brands fa-github" aria-hidden="true"></i>
+        </a>
+
+        <a class="footer-links" href="https://twitter.com/sahuprachi637">
+          <i class="fa-brands fa-twitter"></i>
+        </a>
+
+        <a
+          class="footer-links"
+          href="https://www.linkedin.com/in/prachi-sahu-96b228200/"
+        >
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
+
+        <a class="footer-links" href="mailto:prachisahu998@gmail.com">
+          <i class="fa-solid fa-envelope"></i>
+        </a>
+      </div>
     </footer>
   </body>
 </html>
