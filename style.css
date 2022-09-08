@@ -6,6 +6,12 @@
   --off-white: #f3f4f6;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   font-family: "Poppins", sans-serif;
   margin: 0px;
@@ -25,12 +31,20 @@ body {
 /**  Links  **/
 
 .link {
+  display: inline-block;
   text-decoration: none;
   padding: 0.5rem 1rem;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+  transition: all 100ms ease-in-out;
 }
+
+.link-primary:hover,
+.link-secondary:hover,
+.link:hover {
+  transform: scale(1.05);
+}
+
 .link-primary {
+  display: inline-block;
   background-color: var(--primary-color);
   border-radius: 2rem;
   color: white;
@@ -38,6 +52,7 @@ body {
 }
 
 .link-secondary {
+  display: inline-block;
   color: var(--primary-color);
   border-radius: 2rem;
   border: 1px solid var(--primary-color);
@@ -51,6 +66,7 @@ hr {
 /***  list  ***/
 .list-non-bullet {
   list-style: none;
+  width: 70%;
 }
 
 .list-item-inline {
@@ -63,15 +79,20 @@ hr {
 .navigation {
   background-color: var(--primary-color);
   color: white;
-  padding: 1rem;
+  padding: 1rem 2.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.navigation .nav-brand {
-  font-weight: bold;
+.nav-brand {
+  font-size: 1.5rem;
+  font-weight: 600;
 }
 
 .navigation .link {
   color: white;
+  font-size: 1.1rem;
 }
 
 .navigation .nav-pills {
@@ -81,7 +102,7 @@ hr {
 }
 
 .navigation .link-active {
-  font-weight: bold;
+  font-weight: 600;
 }
 
 /***  hero  ***/
@@ -98,7 +119,7 @@ hr {
 
 .hero .hero-heading {
   text-align: center;
-  padding-top: 1rem;
+  padding: 2.5rem 0;
   color: var(--dark-gray);
 }
 
@@ -109,7 +130,7 @@ hr {
 /***  section  ***/
 
 .section {
-  padding: 2rem;
+  padding: 2.5rem;
   margin-bottom: 2rem !important;
 }
 
@@ -124,9 +145,26 @@ hr {
   background-color: var(--off-white);
 }
 
+.date-li {
+  display: inline-block;
+  margin: 1rem 1rem;
+}
+
+.description-li {
+  margin: auto;
+  margin-bottom: 1.5rem;
+  max-width: 90%;
+}
+.description {
+  margin: 1rem;
+}
+.bold {
+  font-weight: 500;
+}
+
 /***  footers  ***/
 
-.footer {
+/* .footer {
   background-color: var(--primary-color);
   padding: 2rem 1rem;
   text-align: center;
@@ -144,6 +182,39 @@ hr {
 
 .footer ul {
   padding-inline-start: 0px;
+} */
+
+/***footer***/
+footer {
+  width: 100%;
+  font-size: 2rem;
+  font-weight: 500;
+  background-color: var(--primary-color);
+  padding: 2rem 1rem;
+  text-align: center;
+  color: white;
 }
 
-/***extra***/
+.footer-links {
+  display: inline-block;
+  color: #fff;
+  padding: 1rem;
+  text-decoration: none;
+  font-size: 2rem;
+}
+
+.footer-links:hover {
+  transform: scale(1.05);
+}
+
+.footer-name {
+  font-size: 1.2rem;
+  padding: 1rem 1rem 1rem 1rem;
+  font-weight: bold;
+}
+
+.projects-ul {
+  display: flex;
+  flex-direction: column-reverse;
+  width: 100%;
+}
