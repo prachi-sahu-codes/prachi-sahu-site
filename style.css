@@ -163,27 +163,11 @@ hr {
   font-weight: 500;
 }
 
-/***  footers  ***/
-
-/* .footer {
-  background-color: var(--primary-color);
-  padding: 2rem 1rem;
-  text-align: center;
-  color: white;
+.projects-ul {
+  display: flex;
+  flex-direction: column-reverse;
+  width: 100%;
 }
-
-.footer .footer-header {
-  font-weight: bold;
-  font-size: large;
-}
-
-.footer .link {
-  color: white;
-}
-
-.footer ul {
-  padding-inline-start: 0px;
-} */
 
 /***footer***/
 footer {
@@ -212,10 +196,4 @@ footer {
   font-size: 1.2rem;
   padding: 1rem;
   font-weight: bold;
-}
-
-.projects-ul {
-  display: flex;
-  flex-direction: column-reverse;
-  width: 100%;
 }
