@@ -145,6 +145,7 @@ hr {
   font-weight: bold;
   color: #fff;
   border-top-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
 }
 
 .section {
