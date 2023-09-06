@@ -3,6 +3,7 @@
 :root {
   --primary-color: #06b6d4;
   --dark-gray: #6b7280;
+  --dark-lightGray: #dadde3;
   --off-white: #f3f4f6;
 }
 
@@ -154,9 +155,16 @@ hr {
   margin: 0 auto;
 }
 
+.ow1{
+  border-radius: 1rem;
+  box-shadow: 0 2px 5px rgb(217, 217, 217);
+  /* background-color: var(--dark-lightGray); */
+}
+
 .ow {
   border-radius: 1rem;
   background-color: var(--off-white);
+  box-shadow: 0 2px 5px rgb(217, 217, 217);
 }
 
 .date-li {
@@ -214,5 +222,9 @@ footer {
 @media screen and (max-width: 580px) {
   .link-mobile {
     margin: 0.5rem 0;
+  }
+
+  .margin-top{
+    margin-top: 0.9rem;
   }
 }
